@@ -322,6 +322,11 @@ img{
     padding: 25px 50px;
     border-radius: 5px;
 }
+.counting-layout .card:hover{
+    rotate: 360deg;
+    transform: scaleZ(1.5);
+    transition: all 0.5s ease;
+}
 .counting-layout .card p{
     font-size: 16px;
     font-family: "Josefin Sans", serif;
@@ -341,7 +346,7 @@ img{
 .feature-all .part-1{
     color: #FFFFFF;
     /* border: 1px solid #dbd9d9; */
-    width: 57%;
+    width: 65%;
 }
 .feature-all .part-1 .f-card{
     display: flex;
@@ -352,10 +357,10 @@ img{
     width: 25%;
 }
 .feature-all .part-1 .f-card:nth-child(2) p:nth-child(2){
-    width: 89%;
+    width: 90%;
 }
 .feature-all .part-1 .f-card:nth-child(3) p:nth-child(2){
-    width: 85%;
+    width: 90%;
 }
 .feature-all .part-1 .f-card:nth-child(4){
     padding: 0px;
@@ -376,14 +381,23 @@ img{
     color: #666565;
 }
 .feature-all .part-2{
-    position: absolute;
-    top: 20%;
-    left: 55%;
+    /* border: 1px solid #fff; */
+    /* position: absolute; */
+    /* top: 20%; */
+    max-width: 600px;
+    /* left: 55%; */
+    /* transform: translate(0, 0%); */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
+}
+.feature-all .part-2 figure{
+    position: absolute;
+    top: 25%;
+    /* max-width: 600px; */
+    left: 55%;
 }
 /*=============================================guest====================================*/
 .guest{
@@ -954,19 +968,19 @@ font-size: 12px;
 }
 /*=====================================banner==================================================*/
 .banner{
-    background: url("../img/banner-bg.png");
-    background-position: center;
-    background-size: 100% 100%;
+background: url("../img/banner-bg.png");
+background-position: center;
+background-size: 100% 100%;
 }
 .row .ban-all h1{
 font-size: 55px;
 margin-bottom: 12px;
 }
-.row p{
+.row .ban-all p{
 font-size: 15px;
 margin-bottom: 20px;
 }
-.row a{
+.row .ban-all a{
 font-size: 15px;
 font-family: "Inter", serif;
 font-weight: 800;
@@ -974,7 +988,21 @@ color: #fff;
 color: #FFFFFF;
 padding: 12px 40px;
 }
+
+/*====================================counting===========================================*/
+.counting-all p:nth-child(2){
+font-size: 30px;
+margin-bottom: 15px;
 }
+.counting-all p:nth-child(3){
+font-size: 13px;
+line-height: 20px;
+}
+
+
+
+}
+
 
 
 
@@ -1018,19 +1046,19 @@ left: 46%;
 width: 5%;
 }
 .toggler i{
-border: 2px solid rgba(211, 211, 211, 0.2);
+/* border: 2px solid rgba(211, 211, 211, 0.2); */
 border-radius: 50%;
 padding: 10px;
-background-color: #000;
+/* background-color: #000; */
 }
 .nav-menu.showList{
 display: block;
 }
 /*=====================================banner==================================================*/
 .banner{
-    background: url("../img/banner-bg.png");
-    background-position: center;
-    background-size: 100% 100%;
+background: url("../img/banner-bg.png");
+background-position: center;
+background-size: 100% 100%;
 }
 .row .ban-all h1{
 font-size: 40px;
@@ -1053,6 +1081,25 @@ padding: 12px 40px;
 .swiper-button-prev{
   padding: 0px 30px;
   color: #FFFFFF;
+}
+/*======================================counting==================================*/
+.counting-all{
+width: 70%;
+padding: 20px 0px;
+}
+.counting-all p:nth-child(2){
+font-size: 24px;
+margin-bottom: 15px;
+}
+.counting-all p:nth-child(3){
+font-size: 12px;
+line-height: 20px;
+}
+.counting-layout .card{
+/* max-width: 238px;
+width: 100%; */
+padding: 22px 40px;
+border-radius: 5px;
 }
 }
 
@@ -1094,14 +1141,14 @@ display: block;
 margin: 0 auto;
 position: absolute;
 top: 30%;
-left: 47%;
-width: 5%;
+left: 45%;
+width: 8%;
 }
 .toggler i{
-border: 2px solid rgba(211, 211, 211, 0.2);
+/* border: 2px solid rgba(211, 211, 211, 0.2); */
 border-radius: 50%;
 padding: 5px;
-background-color: #000;
+/* background-color: #000; */
 }
 .nav-menu.showList{
 display: block;
@@ -1113,7 +1160,7 @@ background-position: center;
 background-size: 100% 100%;
 }
 .row .ban-all h1{
-font-size: 35px;
+font-size: 33px;
 }
 .row .ban-all p{
 font-size: 12px;
@@ -1131,6 +1178,37 @@ padding: 10px 35px;
 .swiper-button-prev{
 display: none !important;
 }
+/*=========================================counting=======================================*/
+.counting-all{
+    width: 75%;
+}
+.counting-all p:nth-child(2){
+font-size: 22px;
+}
+.counting-all p:nth-child(3){
+font-size: 12px;
+line-height: 20px;
+}
+.counting-layout .card{
+/* max-width: 238px;
+width: 100%; */
+padding: 15px 20px;
+border-radius: 5px;
+}
+.counting-layout .card figure{
+width: 35%;
+}
+.counting-layout .card:nth-child(3) figure{
+width: 25%;
+}
+.counting-layout .card:nth-child(4) figure{
+width: 16%;
+}
+.counting-layout .card p{
+font-size: 14px;
+}
+/*==========================================features==========================================*/
+
     
 }
 
@@ -1158,10 +1236,10 @@ left: 45%;
 width: 10%;
 }
 .toggler i{
-border: 2px solid rgba(211, 211, 211, 0.2);
+/* border: 2px solid rgba(211, 211, 211, 0.2); */
 border-radius: 50%;
 padding: 5px;
-background-color: #000;
+/* background-color: #000; */
 }
 /*=================================banner=====================================*/
 .banner{
@@ -1184,6 +1262,25 @@ font-weight: 800;
 color: #fff;
 color: #FFFFFF;
 padding: 8px 30px;
+}
+/*======================================counting==================================*/
+.counting-all{
+width: 85%;
+padding: 20px 0px;
+}
+.counting-all p:nth-child(2){
+font-size: 15px;
+margin-bottom: 15px;
+}
+.counting-all p:nth-child(3){
+font-size: 10px;
+line-height: 15px;
+}
+.counting-layout .card{
+ max-width: 238px;
+width: 70%;
+padding: 10px 20px;
+border-radius: 5px;
 }
     
  }
