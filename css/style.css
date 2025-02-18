@@ -1346,32 +1346,31 @@ border-radius: 5px;
 }
 /*=============================================features==========================================*/
 .our-features{
-    padding: 20px 0px;
-    }
-    .feature-all{
-        padding: 0;
-    }
-    .our-features .heading h2{
-        font-size: 18px;
-        margin-bottom: 10px;
-        }
-        .our-features .heading p{
-            font-size: 12px;
-            line-height: 18px;
-            }
-            .feature-all .part-1 .f-card figure {
-                width: 25%;
-            }
-            .feature-all .part-1 .f-card .f-content p:nth-child(1){
-                font-size: 15px;
-                margin-bottom: 10px;
-            }
-            .feature-all .part-1 .f-card .f-content p:nth-child(2){
-                font-size: 12px;
-                /* margin-bottom: 10px; */
-            }
-            .feature-all .part-2 {
-                width: 70%;
-                } 
+padding: 20px 0px;
+}
+.feature-all{
+padding: 0;
+}
+.our-features .heading h2{
+font-size: 18px;
+margin-bottom: 10px;
+}
+.our-features .heading p{
+font-size: 12px;
+line-height: 18px;
+}
+.feature-all .part-1 .f-card figure {
+width: 25%;
+}
+.feature-all .part-1 .f-card .f-content p:nth-child(1){
+font-size: 15px;
+margin-bottom: 10px;
+}
+.feature-all .part-1 .f-card .f-content p:nth-child(2){
+font-size: 12px;
+}
+.feature-all .part-2 {
+width: 70%;
+} 
     
  }
