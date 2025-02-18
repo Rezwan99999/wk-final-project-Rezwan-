@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------------js link------------------------------>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<!---------------------------------------------------fav icon link---------------------------------->
+<link rel="icon" type="image/x-icon" href="./img/fav.png">
+<!--------------------------------------------------font awesome cdn---------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!---------------------------------------------------------aos link--------------------------------------->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--------------------------------------Link Swiper's CSS--------------------------------->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!----------------------------------------------------css link-------------------------->
+<link rel="stylesheet" href="./css/style.css">
+<title>ALPHA</title>
+</head>
+<body>
+    <!---------------------------------------------------start header-------------------------------->
+    <header>
+        <!--------------------------------------------------- start navbar------------------------------->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-all">
+                    <div class="nav-logo">
+                        <a href="#"><figure><img src="./img/nav-logo.png" alt="#"></figure></a>
+                    </div>
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="#Home" class="active">Home</a></li>
+                            <li><a href="#Cars">Cars</a></li>
+                            <li><a href="#Booking">Booking</a></li>
+                            <li><a href="#About us">About us</a></li>
+                            <li><a href="#Contact us">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="sign-in">
+                        <a href="btn">Sign in</a>
+                    </div>
+                </div>
+                <div class="toggler" id="toggler">
+                    <i  class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </nav>
+        <!------------------------------------------------------- end navbar-->
+    </header>
+    <!-----------------------------------end header------------------------------>
+    <!------------------------------------------------start main-------------------------------->
+    <main>
+        <!-------------------------------------------------start banner--------------------------->
+  <section class="banner" id="Home">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="cantainer">
+            <div class="row">
+                <div class="ban-all">
+                    <h1>Premium Cars</h1>
+                    <p>Discover the world in unparalleled comfort and style.</p>
+                    <a href="banner-btn">Discover</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cantainer">
+            <div class="row">
+                <div class="ban-all">
+                    <h1>Luxury Car</h1>
+                    <p>Discover the world in unparalleled comfort and style.</p>
+                    <a href="banner-btn">Discover</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cantainer">
+            <div class="row">
+                <div class="ban-all">
+                    <h1>Sports Car</h1>
+                    <p>Discover the world in unparalleled comfort and style.</p>
+                    <a href="banner-btn">Discover</a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+        </section>
+        <!----------------------------------------end banner---------------------------------------------------->
+        <!-------------------------------------------------start our vehicle-------------------------------------->
+        <!-- <section class="our-vehicle section-padding" id="Cars">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Our Vehicle Fleet</h2>
+                        <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for
+                            unforgettable journeys.</p>
+                    </div>
+                            <div class="vehicle-layout">
+                                <div class="card">
+                                    <figure>
+                                        <img src="./img/v-card-1.png" alt="">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="top">
+                                            <p>BMW M2</p>
+                                            <a href="bt"><i class="fa-solid fa-heart"></i>36</a>
+                                        </div>
+                                        <div class="middle">
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-1.png" alt="#">
+                                                </figure>5</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-2.png" alt="#">
+                                                </figure>2</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-3.png" alt="#">
+                                                </figure>4</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-4.png" alt="#">
+                                                </figure>Sedan</a>
+                                        </div>
+                                        <div class="bottom">
+                                            <p>Daily rate from</p>
+                                            <div class="rent">
+                                                <p>$244</p>
+                                                <a href="bt">Rent Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <figure>
+                                        <img src="./img/v-card-2.png" alt="">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="top">
+                                            <p>Ford Raptor</p>
+                                            <a href="bt"><i class="fa-solid fa-heart"></i>59</a>
+                                        </div>
+                                        <div class="middle">
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-1.png" alt="#">
+                                                </figure>5</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-2.png" alt="#">
+                                                </figure>2</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-3.png" alt="#">
+                                                </figure>4</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-4.png" alt="#">
+                                                </figure>Sedan</a>
+                                        </div>
+                                            <div class="bottom">
+                                                <p>Daily rate from</p>
+                                                <div class="rent">
+                                                    <p>$147</p>
+                                                    <a href="bt">Rent Now</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+        
+        
+                                <div class="card">
+                                    <figure>
+                                        <img src="./img/v-card-3.png" alt="#">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="top">
+                                            <p>Mini Cooper</p>
+                                            <a href="bt"><i class="fa-solid fa-heart"></i>18</a>
+                                        </div>
+                                        <div class="middle">
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-1.png" alt="#">
+                                                </figure>5</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-2.png" alt="#">
+                                                </figure>2</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-3.png" alt="#">
+                                                </figure>4</a>
+                                            <a href="bt">
+                                                <figure>
+                                                    <img src="./img/card-icon-4.png" alt="#">
+                                                </figure>Sedan</a>
+                                        </div>
+                                            <div class="bottom">
+                                                <p>Daily rate from</p>
+                                                <div class="rent">
+                                                    <p>$236</p>
+                                                    <a href="bt">Rent Now</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                </div>
+        </section> -->
+        <!---------------------------------------------------end our vehicle------------------------------------------>
+        <!------------------------------------------------start counting---------------------------->
+        <!-- <section class="counting" id="About us">
+            <div class="container">
+                <div class="row">
+                    <div class="counting-all">
+                            <figure  data-aos="fade-left">
+                                <img src="./img/counting-img.png" alt="#">
+                            </figure>
+                        <p>We offer customers a wide range of commercial cars and luxury cars for any occasion.</p>
+                        <p>At our car rental agency, we believe that everyone deserves to experience the you need transportation for a business trip, family vacation, or simply want to enjoy a weekend getaway, we have flexible rental options to accommodate your schedule.</p>
+                    </div>
+                </div>
+                <div class="counting-layout">
+                    <div class="card" data-aos="flip-left">
+                        <figure>
+                            <img src="./img/c-card-1.png" alt="#">
+                        </figure>
+                        <p>Completed Orders</p>
+                    </div>
+                    <div class="card" data-aos="flip-left">
+                        <figure>
+                            <img src="./img/c-card-2.png" alt="#">
+                        </figure>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="card" data-aos="flip-left">
+                        <figure>
+                            <img src="./img/c-card-3.png" alt="#">
+                        </figure>
+                        <p>Vehicles Fleet</p>
+                    </div>
+                    <div class="card" data-aos="flip-left">
+                        <figure>
+                            <img src="./img/c-card-4.png" alt="#">
+                        </figure>
+                        <p>Years Experience</p>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+        <!-----------------------------------------------end counting---------------------------------------->
+        <!------------------------------------------------------start our features------------------------------------------>
+        <!-- <section class="our-features section-padding" id="About us">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Our Features</h2>
+                        <p>Discover a world of convenience, safety, and customization, paving the way for
+                            unforgettable adventures and seamless mobility solutions.</p>
+                    </div>
+                </div>
+                    <div class="feature-all">
+                        <div class="part-1">
+                            <div class="f-card">
+                                <figure data-aos="zoom-in">
+                                    <img src="./img/f-1.png" alt="#">
+                                </figure>
+                                <div class="f-content">
+                                    <p>First class services</p>
+                                    <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
+                                </div>
+                            </div>
+
+                            <div class="f-card">
+                                <figure data-aos="zoom-in">
+                                    <img src="./img/f-2.png" alt="#">
+                                </figure>
+                                <div class="f-content">
+                                    <p>24/7 road assistance</p>
+                                    <p>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="f-card">
+                                <figure data-aos="zoom-in">
+                                    <img src="./img/f-3.png" alt="#">
+                                </figure>
+                                <div class="f-content">
+                                    <p>Quality at Minimum Expense</p>
+                                    <p>Unlocking affordable brilliance with elevating quality while minimizing costs for maximum value.</p>
+                                </div>
+                            </div>
+
+                            <div class="f-card">
+                                <figure data-aos="zoom-in">
+                                    <img src="./img/f-4.png" alt="#">
+                                </figure>
+                                <div class="f-content">
+                                    <p>Free Pick-Up & Drop-Off</p>
+                                    <p>Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="part-2">
+                            <figure  data-aos="fade-left" data-aos-duration="5000">
+                                <img src="./img/f-main.png" alt="#">
+                            </figure>
+                        </div>
+                    </div>
+            </div>
+        </section> -->
+            <!----------------------------------------------------------end our features--------------------------------->
+            <!------------------------------------------start guest---------------------------->
+    <!-- <section class="guest section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Hear from our Guests</h2>
+                </div>
+                <div class="guest-layout">
+                    <div class="g-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <figure>
+                            <img src="./img/guest-1.png" alt="#">
+                        </figure>
+                        <div class="g-content">
+                            <p>Stepanie Hutchkiss</p>
+                            <a href="bt"><img src="./img/coma.png" alt=""></a>
+                            <p>I have been using Rentaly for my Car Rental needs for over 5 years now. I have never had any problems with their service.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="g-card" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <figure>
+                            <img src="./img/guest-2.png" alt="#">
+                        </figure>
+                        <div class="g-content">
+                            <p>Stepanie Hutchkiss</p>
+                            <a href="bt"><img src="./img/coma.png" alt=""></a>
+                            <p>We have been using Rentaly for our trips needs for several years now and have always been happy with their service. </p>
+                        </div>
+                    </div>
+
+
+                    <div class="g-card" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <figure>
+                            <img src="./img/guest-3.png" alt="#">
+                        </figure>
+                        <div class="g-content">
+                            <p>Stepanie Hutchkiss</p>
+                            <a href="bt"><img src="./img/coma.png" alt=""></a>
+                            <p>Endorsed by industry experts, Rentaly is the Car Rental solution you can trust. With years of experience , reliable and secure Car Rental services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!---------------------------------------------------------------end guest------------------------------>
+    <!-----------------------------------------------------------start news--------------------------------->
+    <!-- <section class="news section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Latest News</h2>
+                    <p>Breaking news, fresh perspectives, and in-depth coverage - stay ahead with our
+                        latest news, insights, and analysis.</p>
+                </div>
+                <div class="news-layout">
+                    <div class="news-card" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <figure>
+                            <img src="./img/news-1.png" alt="">
+                        </figure>
+                        <div class="news-box">
+                            <h3>10</h3>
+                            <p>MAR</p>
+                        </div>
+                        <div class="news-content">
+                            <p>Enjoy Best Travel Experience</p>
+                            <p>Traveling is an enriching experience that
+                                allows us to explore new destinations,
+                                immerse ourselves in different cultures,
+                                and create lifelong memories.</p>
+                                <a href="bt">Read More</a>
+                        </div>
+                    </div>
+
+
+                    <div class="news-card" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <figure>
+                            <img src="./img/news-2.png" alt="">
+                        </figure>
+                        <div class="news-box">
+                            <h3>12</h3>
+                            <p>MAR</p>
+                        </div>
+                        <div class="news-content">
+                            <p>The Future of Car Rent</p>
+                            <p>Traveling is an enriching experience that
+                                allows us to explore new destinations,
+                                immerse ourselves in different cultures,
+                                and create lifelong memories.</p>
+                                <a href="bt">Read More</a>
+                        </div>
+                    </div>
+
+
+                    <div class="news-card" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <figure>
+                            <img src="./img/news-3.png" alt="">
+                        </figure>
+                        <div class="news-box">
+                            <h3>14</h3>
+                            <p>MAR</p>
+                        </div>
+                        <div class="news-content">
+                            <p>The Future of Car Rent</p>
+                            <p>Traveling is an enriching experience that
+                                allows us to explore new destinations,
+                                immerse ourselves in different cultures,
+                                and create lifelong memories.</p>
+                                <a href="bt">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-------------------------------------------------------start adventure------------------------------->
+    <!-- <section class="adventure">
+        <div class="container">
+            <div class="adventure-all">
+                <div class="adventure-head">
+                    <h2>Let's Your Adventure Begin</h2>
+                </div>
+                    <div class="adventure-part">
+                        <figure  data-aos="zoom-out">
+                            <img src="./img/a-1.png" alt="">
+                        </figure>
+                        <div class="adventure-content" data-aos="fade-left" data-aos-duration="5000">
+                            <p>First class services</p>
+                            <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
+                        </div>
+                    </div>
+                    <div class="adventure-part">
+                        <figure  data-aos="zoom-out">
+                            <img src="./img/a-2.png" alt="">
+                        </figure>
+                        <div class="adventure-content" data-aos="fade-left" data-aos-duration="5000">
+                            <p>24/7 road assistance</p>
+                            <p>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                        </div>
+                    </div>
+                <div class="adventure-part">
+                    <figure  data-aos="zoom-out">
+                        <img src="./img/a-3.png" alt="">
+                    </figure>
+                    <div class="adventure-content" data-aos="fade-left" data-aos-duration="5000">
+                        <p>Free Pick-Up & Drop-Off</p>
+                        <p>Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--------------------------------------------------end adventure---------------------------------------------->
+    <!-------------------------------------------question----------------------------->
+    <!-- <section class="question">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Have Any Questions?</h2>
+                </div>
+                <div class="form">
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>How do I get started with Car Rental?</p>
+                            <i onclick="show(this)"class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>Can I rent a car with a debit card??</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>What kind of Car Rental do I need?</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>What is a rental car security deposit?</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>Can I cancel or modify my reservation?</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="question-bottom">
+                    <div class="download-app" data-aos="fade-right" data-aos-duration="1500">
+                        <h3>Download our apps to get the best experience</h3>
+                        <div class="app-box">
+                            <a href="#"><img src="./img/apple.png" alt=""></a>
+                            <a href="#"><img src="./img/android.png" alt=""></a>
+                            <div class="app-box-mini">
+                                <p>Download the</p>
+                                <p>App Today</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <figure data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
+                        <img src="./img/q-bottom.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!------------------------------------------end question-------------------------------------->
+    <!---------------------------------------------------start city---------------------------------- -->
+    <!-- <section class="city">
+        <div class="container">
+            <div class="all-city">
+                <p>INDIA</p>
+                <p>SPAIN</p>
+                <p>AMERICA</p>
+                <p>SOUTH AFRICA</p>
+                <p>JAPAN</p>
+                <p>CHINA</p>
+            </div>
+        </div>
+    </section> -->
+    </main>
+     <!-----------------------------------------------start footer---------------------------------------------->
+     <!-- <footer>
+        <div class="top-footer section-padding" id="Contact us">
+            <div class="container">
+                <div class="ftr-all">
+                    <div class="ftr-box">
+                        <a href="#"><img src="./img/nav-logo.png" alt="#"></a>
+                        <p>Where quality meets affordability. We
+                            understand the importance of a smooth
+                            and enjoyable journey without the burden
+                            of excessive costs. That's why we have
+                            meticulously crafted our offerings to
+                            provide you with top-notch vehicles at
+                            minimum expense.</p>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Contact Info</p>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>08 W 36th St, New York, NY 10001</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+1 333 9296</a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i>contact@example.com</a>
+                        <a href="#"><i class="fa-solid fa-file-word"></i>Download Brochure</a>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Quick Links</p>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Cars</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Social Network</p>
+                        <div class="ftr-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-ftr">
+            <div class="container">
+                <p>Copyright 2024 - Rentaly by msrz</p>
+                <div class="right">
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                
+            </div>
+        </div>
+
+     </footer> -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------------------------my js link---------------------------------------------->
+<script src="./js/script.js"></script>
+<!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+ <!----------------------------------------------------aos js-------------------------------->
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
+
+<!--------------------------------swiper js------------------------------>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      loop:true,
+      autoplay: {
+        delay: 4000,
+        pauseOnMouseEnter:true,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+
+
+
+  <!-- Initialize Swiper -->
+  <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script> -->
+    
+</body>
+</html>
