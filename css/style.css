@@ -1183,7 +1183,7 @@ color: #c6c5c5;
 }
 /*================================question=================================================*/
 .question{
-    padding: 30px 0px 5px 0px;
+padding: 30px 0px 5px 0px;
 }
 .question .container .row .heading{
 width: 100%;
@@ -1193,37 +1193,36 @@ font-size: 30px;
 margin-bottom: 18px;
 }
 .form{
-    padding-bottom: 40px;
+padding-bottom: 40px;
 }
 .form-box{
-    width: 80%;
-    padding: 20px 0px;
+width: 80%;
+padding: 20px 0px;
 }
 .question-bottom{
-    padding: 22px 32px 10px 32px;
-    margin-top: 30px;
-    /* max-width: 850px;
-    width: 100%; */
+padding: 22px 32px 10px 32px;
+margin-top: 30px;
 }
 .download-app h3{
-    font-size: 25px;
-    margin-bottom: 16px;
+font-size: 25px;
+margin-bottom: 16px;
 }
 .app-box{
-    width: 52%;
-    padding: 12px 15px;
-    display: flex;
-    justify-content: center;
+width: 52%;
+padding: 12px 15px;
+display: flex;
+justify-content: center;
 }
 .app-box-mini{
-    padding-left: 18px;
+padding-left: 18px;
 }
 .app-box-mini p:nth-child(1){
-    font-size: 7px;
+font-size: 7px;
 }
 .app-box-mini p:nth-child(2){
-    font-size: 8px;
+font-size: 8px;
 
+}
 }
 
  @media screen and (max-width:575px) {
@@ -1424,49 +1423,48 @@ color: #c6c5c5;
 }
 /*=============================question=================================*/
 .question-bottom{
-    padding: 15px 28px 8px 28px;
-    margin-top: 20px;
+padding: 15px 28px 8px 28px;
+margin-top: 20px;
 }
 .form{
-    padding-bottom: 28px;
+padding-bottom: 28px;
 }
 .form-box{
 width: 80%;
 padding: 15px 0px;
 }
 .form-box .form-box-1-1 p{
-    font-size: 15px;
+font-size: 15px;
 }
 .form-box .form-box-1-2 p{
-    font-size: 13px;
+font-size: 13px;
 }
 .form-box .form-box-1-1 i{
-    padding: 10px;
+padding: 10px;
 }
 .question-bottom {
-    flex-direction: column;
-    padding: 20px 20px 5px 20px;
-    text-align: center;
+flex-direction: column;
+padding: 20px 20px 5px 20px;
+text-align: center;
 }
 .question-bottom figure {
-    width: 60%;
-    right: 20%;
-    position: relative;
+width: 60%;
+right: 20%;
+position: relative;
 }
 .download-app {
-    width: 100%;
-    
+width: 100%;
 }
 .download-app h3 {
-    font-size: 22px;
+font-size: 22px;
 }
 .app-box {
-    width: 40%;
-    padding: 10px 15px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 40%;
+padding: 10px 15px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -1620,33 +1618,37 @@ color: #c6c5c5;
 }
 /*=============================question==========================*/
 .question .container .row .heading h2{
-    font-size: 20px;
-    margin-bottom: 15px;
+font-size: 20px;
+margin-bottom: 15px;
 }
 .form-box .form-box-1-1 p{
-    font-size: 10px;
+font-size: 10px;
 }
 .form-box .form-box-1-1 i{
-    padding: 5px;
-    font-size: 8px;
+padding: 5px;
+font-size: 8px;
 }
+.form-box .form-box-1-2 p{
+font-size: 10px;
+}
+
 .question-bottom{
-    padding: 10px 10px 2px 10px;
+padding: 10px 10px 2px 10px;
 }
 .question-bottom figure {
-    width: 70%;
-    right: 15%;
-    position: relative;
+width: 70%;
+right: 15%;
+position: relative;
 }
 .download-app h3 {
-    font-size: 15px;
+font-size: 15px;
 }
 .app-box {
-    width: 100%;
-    padding: 8px 10px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 100%;
+padding: 8px 10px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 }
