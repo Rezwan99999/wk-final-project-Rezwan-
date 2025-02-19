@@ -1212,10 +1212,17 @@ margin-bottom: 18px;
 .app-box{
     width: 52%;
     padding: 12px 15px;
+    display: flex;
+    justify-content: center;
 }
 .app-box-mini{
     padding-left: 18px;
 }
+.app-box-mini p:nth-child(1){
+    font-size: 7px;
+}
+.app-box-mini p:nth-child(2){
+    font-size: 8px;
 
 }
 
