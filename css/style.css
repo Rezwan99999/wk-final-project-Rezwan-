@@ -335,91 +335,91 @@ img{
 }
 /*====================================our features=========================================*/
 .our-features {
-    background-color: #181818;
+background-color: #181818;
 }
 .our-features .heading {
-    width: 60%;
-    padding-bottom: 36px;
+width: 60%;
+padding-bottom: 36px;
 }
 .feature-all {
-    display: flex;
-    align-items: flex-start; 
-    justify-content: space-between; 
-    position: relative;
-    padding: 30px 0px;
+display: flex;
+align-items: flex-start; 
+justify-content: space-between; 
+position: relative;
+padding: 30px 0px;
 }
 .feature-all .part-1 {
-    color: #FFFFFF;
-    width: 57%;
+color: #FFFFFF;
+width: 57%;
 }
 .feature-all .part-1 .f-card {
-    display: flex;
-    align-items: center;
-    padding-bottom: 45px;
+display: flex;
+align-items: center;
+padding-bottom: 45px;
 }
 .feature-all .part-1 .f-card figure {
-    width: 100%;
-    max-width: 95px;
+width: 100%;
+max-width: 95px;
 }
 .feature-all .part-1 .f-card:nth-child(2) p:nth-child(2) {
-    width: 89%;
+width: 89%;
 }
 .feature-all .part-1 .f-card:nth-child(3) p:nth-child(2) {
-    width: 85%;
+width: 85%;
 }
 .feature-all .part-1 .f-card:nth-child(4) {
-    padding-bottom: 0px; 
+padding-bottom: 0px; 
 }
 .feature-all .part-1 .f-card .f-content {
-    padding-left: 14px;
+padding-left: 14px;
 }
 .feature-all .part-1 .f-card .f-content p:nth-child(1) {
-    font-size: 20px;
-    font-family: "Orbitron", serif;
-    font-weight: 500;
-    color: #b7b4b4;
-    margin-bottom: 12px;
+font-size: 20px;
+font-family: "Orbitron", serif;
+font-weight: 500;
+color: #b7b4b4;
+margin-bottom: 12px;
 }
 .feature-all .part-1 .f-card .f-content p:nth-child(2) {
-    font-size: 15.5px;
-    font-family: "Oxanium", serif;
-    color: #666565;
+font-size: 15.5px;
+font-family: "Oxanium", serif;
+color: #666565;
 }
 .feature-all .part-2 {
-    position: relative; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44%;
-    margin-left: auto; 
-    top: 100px;
+position: relative; 
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44%;
+margin-left: auto; 
+top: 100px;
 }
 
 /*=============================================guest====================================*/
 .guest{
-    background-color: #0F0F0F;
+background-color: #0F0F0F;
 }
 .guest .container .row{
-    margin: 0 -15px;
+margin: 0 -15px;
 }
 .guest-layout{
-    display: flex;
-    justify-content: space-around;
-    align-items:stretch;
-    padding: 50px 0px;
-    width: 100%;
-    gap: 25px;
-    flex-wrap: wrap;
+display: flex;
+justify-content: space-around;
+align-items:stretch;
+padding: 50px 0px;
+width: 100%;
+gap: 25px;
+flex-wrap: wrap;
 }
 .guest-layout .g-card:nth-child(3) .g-content{
-    padding: 16px;
+padding: 16px;
 }
 .guest-layout .g-card:nth-child(3) .g-content p:nth-child(3){
-    line-height: 22px;
+line-height: 22px;
 }
 .g-card{
-   max-width: 350px;
-   width: 100%;
+max-width: 350px;
+width: 100%;
 }
 .g-content{
     color: #8e8e8e;
@@ -1140,6 +1140,20 @@ width: 100%;
 .guest .container .row .heading h2{
 font-size: 38px;
 }
+.guest-layout{
+padding: 30px 0px;
+}
+/*====================================news==============================*/
+.news .container .row .heading {
+width: 80%;
+}
+.news .container .row .heading h2{
+font-size: 38px;
+}
+.news-layout{
+padding: 30px 0px;
+}
+
 }
 
  @media screen and (max-width:575px) {
@@ -1276,7 +1290,7 @@ width: 80%;
 }
 /*=================================guest===================================*/
 .guest{
-    padding: 25px 0px;
+padding: 25px 0px;
 }
 .guest .container .row .heading{
 width: 100%;
@@ -1290,7 +1304,24 @@ padding: 30px 0px;
 }
 .g-card{
 width: 80%;
- }
+}
+/*==================================news================================*/
+.news{
+padding: 30px 0px;
+}
+.news .container .row .heading{
+width: 80%;
+}
+.news .container .row .heading h2{
+font-size: 35px;
+margin-bottom: 15px;
+}
+.news .container .row .heading p{
+font-size: 14px;
+}
+.news-card{
+width: 80%;
+}
 
 
 }
@@ -1394,7 +1425,7 @@ width: 70%;
 } 
 /*=================================guest================================*/
 .guest{
-    padding: 20px 0px;
+padding: 20px 0px;
 }
 .guest .container .row .heading{
 width: 80%;
@@ -1403,5 +1434,22 @@ width: 80%;
 font-size: 20px;
 margin-bottom: 15px;
 }
+/*=============================news===========================*/
+.news .container .row .heading p{
+    font-size: 12px;
+    line-height: 18px;
+}
+.news-content p:nth-child(1){
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.news-content p:nth-child(2){
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+.news-content a{
+    padding: 8px 25px;
+}
     
- }
+}
