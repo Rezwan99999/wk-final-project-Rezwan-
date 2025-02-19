@@ -566,7 +566,8 @@ width: 100%;
     width: 55%;
 }
 .adventure-part figure{
-    width: 25%;
+    max-width: 95px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
 }
@@ -1153,6 +1154,25 @@ font-size: 38px;
 .news-layout{
 padding: 30px 0px;
 }
+/*======================================adventure==========================*/
+.adventure-head h2{
+font-size: 28px;
+text-align: center;
+margin-bottom: 20px;
+}
+.adventure-all{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.adventure-part .adventure-content p:nth-child(1){
+font-size: 18px;
+margin-bottom: 10px;
+}
+.adventure-part .adventure-content p:nth-child(2){
+font-size: 14px;
+color: #c6c5c5;
+}
 
 }
 
@@ -1322,6 +1342,36 @@ font-size: 14px;
 .news-card{
 width: 80%;
 }
+/*=================================adventure=========================================*/
+.adventure-head{
+    width: 100%;
+}
+.adventure-head h2{
+font-size: 25px;
+text-align: center;
+margin-bottom: 20px;
+}
+.adventure-all{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.adventure-part{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+width: 55%;
+}
+.adventure-part .adventure-content p:nth-child(1){
+font-size: 18px;
+margin-bottom: 10px;
+}
+.adventure-part .adventure-content p:nth-child(2){
+font-size: 14px;
+color: #c6c5c5;
+}
 
 
 }
@@ -1436,20 +1486,40 @@ margin-bottom: 15px;
 }
 /*=============================news===========================*/
 .news .container .row .heading p{
-    font-size: 12px;
-    line-height: 18px;
+font-size: 12px;
+line-height: 18px;
 }
 .news-content p:nth-child(1){
-    font-size: 13px;
-    margin-bottom: 15px;
+font-size: 13px;
+margin-bottom: 15px;
 }
 .news-content p:nth-child(2){
-    font-size: 12px;
-    margin-bottom: 15px;
-    line-height: 18px;
+font-size: 12px;
+margin-bottom: 15px;
+line-height: 18px;
 }
 .news-content a{
-    padding: 8px 25px;
+padding: 8px 25px;
 }
-    
+/*============================================adventure=========================================*/
+.adventure-head h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    }
+    .adventure-part{
+        width: 80%;
+    }
+    .adventure-part figure{
+        width: 30%;
+    }
+    .adventure-part .adventure-content p:nth-child(1){
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+        }
+        .adventure-part .adventure-content p:nth-child(2){
+        font-size: 12px;
+        color: #c6c5c5;
+        }
 }
