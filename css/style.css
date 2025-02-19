@@ -1466,6 +1466,38 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+/*===============================footer=======================================*/
+.top-footer{
+padding: 30px 0px;
+}
+.ftr-all{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ftr-box{
+max-width: 100%;
+text-align: center;
+/* width: 100%; */
+}
+.ftr-box p:nth-child(1){
+/* font-size: 18px; */
+padding-bottom: 25px;
+}
+.ftr-box a{
+margin-bottom: 15px;
+/* font-size: 16px; */
+}
+.bottom-ftr .container{
+font-size: 12px;
+}
+.bottom-ftr .container .right{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 40%;
+}
 
 
 }
@@ -1651,4 +1683,49 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+/*===============================================footer==========================================================*/
+.top-footer{
+    padding: 20px 0px;
+    }
+    .ftr-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .ftr-box{
+    max-width: 100%;
+    text-align: center;
+    /* width: 100%; */
+    }
+    .ftr-box p:nth-child(1){
+    /* font-size: 18px; */
+    padding-bottom: 18px;
+    }
+    .ftr-box p:nth-child(2){
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .ftr-box a{
+    margin-bottom: 10px;
+    font-size: 12px;
+    }
+    .ftr-box .ftr-icon i{
+        padding: 10px;
+    }
+    .bottom-ftr{
+        padding: 15px 0px;
+    }
+    .bottom-ftr .container{
+        display: flex;
+        flex-direction: column;
+    font-size: 12px;
+    }
+    .bottom-ftr .container .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    }
 }
