@@ -996,6 +996,13 @@ width: 100%;
 .guest .container .row .heading h2{
 font-size: 40px;
 }
+/*================================question=================================================*/
+.question .container .row .heading{
+width: 100%;
+}
+.question .container .row .heading h2{
+font-size: 38px;
+}
 }
 
 
@@ -1172,6 +1179,41 @@ margin-bottom: 10px;
 .adventure-part .adventure-content p:nth-child(2){
 font-size: 14px;
 color: #c6c5c5;
+}
+/*================================question=================================================*/
+.question{
+    padding: 30px 0px 5px 0px;
+}
+.question .container .row .heading{
+width: 100%;
+}
+.question .container .row .heading h2{
+font-size: 30px;
+margin-bottom: 18px;
+}
+.form{
+    padding-bottom: 40px;
+}
+.form-box{
+    width: 80%;
+    padding: 20px 0px;
+}
+.question-bottom{
+    padding: 22px 32px 10px 32px;
+    margin-top: 30px;
+    /* max-width: 850px;
+    width: 100%; */
+}
+.download-app h3{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.app-box{
+    width: 52%;
+    padding: 12px 15px;
+}
+.app-box-mini{
+    padding-left: 18px;
 }
 
 }
@@ -1372,6 +1414,46 @@ margin-bottom: 10px;
 font-size: 14px;
 color: #c6c5c5;
 }
+/*=============================question=================================*/
+.question-bottom{
+    padding: 15px 28px 8px 28px;
+    margin-top: 20px;
+}
+.form{
+    padding-bottom: 28px;
+}
+.form-box{
+width: 80%;
+padding: 15px 0px;
+}
+.app-box{
+width: 60%;
+padding: 8px 10px;
+}
+.form-box .form-box-1-1 p{
+    font-size: 15px;
+}
+.form-box .form-box-1-2 p{
+    font-size: 13px;
+}
+.form-box .form-box-1-1 i{
+    padding: 10px;
+}
+.download-app h3{
+    font-size: 20.5px;
+}
+.app-box-mini p:nth-child(1){
+    font-size: 8px;
+}
+.app-box-mini p:nth-child(2){
+    font-size: 10px;
+}
+.app-box a:nth-child(1){
+    padding-right: 8px;
+}
+.app-box a:nth-child(2){
+    padding-left: 8px;
+}
 
 
 }
@@ -1503,23 +1585,79 @@ padding: 8px 25px;
 }
 /*============================================adventure=========================================*/
 .adventure-head h2{
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 25px;
-    }
-    .adventure-part{
-        width: 80%;
-    }
-    .adventure-part figure{
-        width: 30%;
-    }
-    .adventure-part .adventure-content p:nth-child(1){
-        font-size: 12px;
-        margin-top: 5px;
-        margin-bottom: 8px;
-        }
-        .adventure-part .adventure-content p:nth-child(2){
-        font-size: 12px;
-        color: #c6c5c5;
-        }
+font-size: 18px;
+text-align: center;
+margin-bottom: 25px;
+}
+.adventure-part{
+width: 80%;
+}
+.adventure-part figure{
+width: 30%;
+}
+.adventure-part .adventure-content p:nth-child(1){
+font-size: 12px;
+margin-top: 5px;
+margin-bottom: 8px;
+}
+.adventure-part .adventure-content p:nth-child(2){
+font-size: 12px;
+color: #c6c5c5;
+}
+/*=============================question==========================*/
+.question .container .row .heading h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.form-box .form-box-1-1 p{
+    font-size: 10px;
+}
+.form-box .form-box-1-1 i{
+    padding: 5px;
+    font-size: 8px;
+}
+.question-bottom{
+    padding: 12px 18px 6px 18px;
+    display: flex;
+    flex-direction: column;
+}
+.question-bottom figure{
+    position: relative;
+    right: 30%;
+    /* bottom: 0%;
+    right: 3%; */
+    /* width: 80%; */
+}
+.download-app{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.download-app h3{
+    font-size: 12px;
+}
+.app-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.app-box a:nth-child(1){
+    padding-right: 0px;
+    margin-bottom: 2px;
+    border-right: none;
+}
+.app-box a:nth-child(2){
+    padding-left: 0px;
+    margin-bottom: 2px;
+}
+.app-box-mini{
+    padding-left: 0px;
+}
+.app-box-mini p:nth-child(1){
+    margin-bottom: 2px;
+}
+.app-box-mini p:nth-child(2){
+    margin-bottom: 2px;
+}
 }
