@@ -693,14 +693,14 @@ line-height: 18px;
 }
 /*=================================================main car======================*/
 .car-type{
-    max-width: 100%;
-    }
+max-width: 90%;
+}
 .car-type h3{
-    font-size: 15px;
+font-size: 15px;
 }
 .car-card .car-content h4{
-    font-size: 18px;
-    margin-bottom: 10px;
+font-size: 18px;
+margin-bottom: 10px;
 }
 .car-card .car-content .car-content-1-2-3 
 .car-content-1,
@@ -708,24 +708,24 @@ line-height: 18px;
 margin-right: 15px;
 }
 .car-content .car-content-1-2-3 .car-content-1 p{
-    font-size: 12px;
-    margin-bottom: 12px;
+font-size: 12px;
+margin-bottom: 12px;
 }
 .car-content .car-content-1-2-3 .car-content-2 p{
-    font-size: 12px;
-    margin-bottom: 12px;
+font-size: 12px;
+margin-bottom: 12px;
 }
 .car-content-3 p:nth-child(1){
-    font-size: 14px;
-    color: #bbbbbb;
+font-size: 14px;
+color: #bbbbbb;
 }
 .car-content-3 p:nth-child(2){
-    font-size: 25px;
-    margin-bottom: 10px;
+font-size: 25px;
+margin-bottom: 10px;
 }
 .car-content-3 a{
-    padding: 10px 25px;
-    font-size: 14px;
+padding: 10px 25px;
+font-size: 14px;
 }
 /*===============================footer=======================================*/
 .top-footer{

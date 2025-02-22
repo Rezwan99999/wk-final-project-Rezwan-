@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------------------------------font awesome cdn---------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------------------csss link------------------------------->
+    <link rel="stylesheet" href="./css/booking.css">
+    <title>Document</title>
+</head>
+<body>
+        <!---------------------------------------------------start header-------------------------------->
+        <header>
+            <!--------------------------------------------------- start navbar------------------------------->
+            <nav class="navbar">
+                <div class="container">
+                    <div class="nav-all">
+                        <div class="nav-logo">
+                            <a href="#"><figure><img src="./img/nav-logo.png" alt="#"></figure></a>
+                        </div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./car.html">Cars</a></li>
+                                <li><a href="#Booking" class="active">Booking</a></li>
+                                <li><a href="./abt.html">About us</a></li>
+                                <li><a href="#Contact us">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="sign-in">
+                            <a href="btn">Sign in</a>
+                        </div>
+                    </div>
+                    <div class="toggler" id="toggler">
+                        <i  class="fa-solid fa-angle-down"></i>
+                    </div>
+                </div>
+            </nav>
+            <!------------------------------------------------------- end navbar---------------------------------->
+        </header>
+        <!-----------------------------------end header------------------------------>
+        <!-------------------------------------start banner-------------------------->
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="ban-all">
+                        <h1>Quick Booking</h1>
+                    </div>
+                    <div class="banner-form">
+                        <form class="booking-form" action="#" method="GET">
+                            <!-- First Row (3 Inputs) -->
+                            <div class="form-row">
+                                <div class="input-container">
+                                    <i class="fa-solid fa-car"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Select Car Type</option>
+                                        <option value="sedan">Sedan</option>
+                                        <option value="suv">SUV</option>
+                                        <option value="luxury">Luxury</option>
+                                        <option value="van">Van</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-container">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Enter your pickup location</option>
+                                        <option value="sedan">location-1</option>
+                                        <option value="suv">location-2</option>
+                                        <option value="luxury">location-3</option>
+                                        <option value="van">location-4</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-container">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="sedan">destination-1</option>
+                                        <option value="suv">destination-2</option>
+                                        <option value="luxury">destination-3</option>
+                                        <option value="van">destination-4</option>
+                                    </select>
+                                </div>
+                            </div>
+                    
+                            <!-- Second Row (5 Inputs) -->
+                            <div class="form-row-2">
+                                <div class="input-container">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Pick Up Date </option>
+                                        <option value="sedan">date-1</option>
+                                        <option value="suv">date-2</option>
+                                        <option value="luxury">date-1</option>
+                                        <option value="van">date-1</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-container">
+                                    <i class="fas fa-clock"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="sedan">destination-1</option>
+                                        <option value="suv">destination-2</option>
+                                        <option value="luxury">destination-3</option>
+                                        <option value="van">destination-4</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-container">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="sedan">destination-1</option>
+                                        <option value="suv">destination-2</option>
+                                        <option value="luxury">destination-3</option>
+                                        <option value="van">destination-4</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-container">
+                                    <i class="fas fa-clock"></i>
+                                    <select name="car-type">
+                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="sedan">destination-1</option>
+                                        <option value="suv">destination-2</option>
+                                        <option value="luxury">destination-3</option>
+                                        <option value="van">destination-4</option>
+                                    </select>
+                                </div>
+                    
+                                <div class="input-container">
+                                    <input type="submit" class="search-btn" value="Search">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+      
+              
+            </div>
+        </section>
+    
+</body>
+</html>
