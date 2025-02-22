@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*=================================common class======================*/
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 2px solid green; */
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+section{
+    padding: 50px 0px;
+}
+section,
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+/*======================form-1======================================*/
+.forg0t-password-main{
+    max-width: 1600px;
+     width: 60%;
+     /* height: 908px;
+     height: 40%; */
+     /* border: 1px solid black; */
+     background-color: #BFBFBF;
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+   
+     /* / margin-top: 50%; / */
+     position: relative;
+     bottom: 2%;
+    }
+    .forg0t-password-main figure{
+        width: 40%;    
+    }
+    .forg0t-password-main .txt{
+        width: 60%;
+        padding: 10%;
+        /* / border: 2px solid red; / */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+
+    }
+    .txt form{
+        margin-top: 50px;
+      
+    }
+    .txt form label{
+        margin-bottom: 13px;
+    }
+    .forg0t-password-main .txt input{
+        width: 100%;
+        padding: 20px;
+        background-color: #D9D9D9;
+        border: none;
+        outline: none;
+        /* margin-top: 50px; */
+        border-radius: 10px;
+        /* text-align: center; */
+        margin-bottom: 20px;
+    }
+.close{
+position: absolute;
+top: 0%;
+/*left: 96%;
+*/right: 0%;
+/*border: 1px solid black;
+*/
+border-bottom-left-radius:10px;
+font-size: 30px;
+padding: 0px 20px;
+font-weight: bold;
+background-color: black;
+color: white;
+
+}
+.forgot-password{
+position: relative;
+
+}
+.forgot-password .img{
+position: absolute;
+top:55%;
+left:5% ;
+/* / z-index: 1000; / */
+width: 50%;
+}
+.forg0t-password-main .txt .submit{
+padding: 17px 41px;
+border: 1px solid black;
+display: inline-block;
+text-decoration: none;
+color: white;
+background-color: black;
+}
+.forg0t-password-main .txt h2{
+font-size: 33px;
+font-family: "Orbitron", serif;
+font-weight: bold;
+
+}
+.forg0t-password-main .txt p{
+font-size: 16px;
+font-family: "Oxanium", serif;
+font-weight: 400;
+}
+

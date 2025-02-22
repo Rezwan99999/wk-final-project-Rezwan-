@@ -634,9 +634,26 @@ line-height: 20px;
 .directors-all{
 padding: 0px 10px;
 }
-
-
-
+/*==============================================client==================================*/
+.client-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.client-all figure,
+.client-all .c-content {
+    width: 100%;
+}
+.client-all .c-content {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+}
 
 
 }
@@ -758,6 +775,33 @@ margin: 0;
 padding-top: 20px;
 top: 0;
 } 
+/*======================================client=========================*/
+.client-all figure,
+.client-all .c-content {
+    width: 100%;
+}
+.client-all .c-content h2 {
+    font-size: 32px;
+}
+.client-all .c-content samp {
+    font-size: 14px;
+    width: 100%;
+}
+.client-all .c-content{
+    padding: 0 10px;
+}
+.client-all .c-content .content-box {
+    width: 100%;
+    justify-content: center;
+}
+.contact-all {
+    flex-direction: column;
+    text-align: center;
+}
+.contact-all samp {
+    font-size: 24px;
+    width: 100%;
+}
 }
 
 

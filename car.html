@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------------------------------------------------font awesome cdn---------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!---------------------------------------------------------aos link--------------------------------------->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!---------------------------------------------------fav icon link---------------------------------->
+<link rel="icon" type="image/x-icon" href="./img/fav.png">
+    <!----------------------------------------------css link---------------------------------->
+    <link rel="stylesheet" href="./css/car.css">
+    <title>Car</title>
+</head>
+<body>
+    <!-----------------------------------------header------------------------------------------->
+    <header>
+        <!--------------------------------------------------- start navbar------------------------------->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-all">
+                    <div class="nav-logo">
+                        <a href="#"><figure><img src="./img/nav-logo.png" alt="#"></figure></a>
+                    </div>
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#Cars" class="active">Cars</a></li>
+                            <li><a href="#Booking">Booking</a></li>
+                            <li><a href="./abt.html">About us</a></li>
+                            <li><a href="#Contact us">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="sign-in">
+                        <a href="btn">Sign in</a>
+                    </div>
+                </div>
+                <div class="toggler" id="toggler">
+                    <i  class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </nav>
+        <!------------------------------------------------------- end navbar---------------------------------->
+    </header>
+    <!-----------------------------end navbar-------------------------------------------->
+    <!-------------------------------------------------------start main-------------------------------------->
+    <main>
+        <!-----------------------------------------------------start banner-------------------------------------->
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="ban-all">
+                        <h1>Cars</h1>
+                        <p>we believe that everyone deserves to experience the you need transportation for a business trip, family vacation, or simply want to enjoy a weekend getaway,.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------------------------------------end banner------------------------------------------------>
+        <!---------------------------------------------------start main car------------------------------------------------------->
+        <section class="car-list section-padding">
+            <div class="container">
+                <div class="main-layout">
+                    <div class="car-layout">
+
+                        <div class="car-type">
+                            <h3>Vehicle Type</h3>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="vehicle" value="Car"> Car</label>
+                                    <label><input type="checkbox" name="vehicle" value="Van"> Van</label>
+                                    <label><input type="checkbox" name="vehicle" value="Minibus"> Minibus</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Prestige</label>
+                                </div>
+                        </div>
+    
+                        <div class="car-type">
+                            <h3>Car Body Type</h3>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="vehicle" value="Car"> Convertible</label>
+                                    <label><input type="checkbox" name="vehicle" value="Van"> Coupe</label>
+                                    <label><input type="checkbox" name="vehicle" value="Minibus"> Exotic Cars</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Hatchback</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Minivan</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Truck</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Sedan</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Sports Car</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> Station Wagon</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> SUV</label>
+                                </div>
+                        </div>
+    
+                        <div class="car-type">
+                            <h3>Car Seats</h3>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="vehicle" value="Car"> 2 seats</label>
+                                    <label><input type="checkbox" name="vehicle" value="Van"> 4 seats</label>
+                                    <label><input type="checkbox" name="vehicle" value="Minibus"> 6 seats</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> 6+ seats</label>
+                                </div>
+                        </div>
+    
+                        <div class="car-type">
+                            <h3>Car Engine Capacity (cc)</h3>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="vehicle" value="Car"> 1000 - 2000</label>
+                                    <label><input type="checkbox" name="vehicle" value="Van"> 2000 - 4000</label>
+                                    <label><input type="checkbox" name="vehicle" value="Minibus"> 4000 - 6000</label>
+                                    <label><input type="checkbox" name="vehicle" value="Prestige"> 6000+</label>
+                                </div>
+                        </div>
+                        
+                        <div class="price">
+                                <h3>Price ($)</h3>
+                                <div class="price-1-2">
+                                    <div class="range-1">
+                                        <p>Min</p>
+                                        <p>0</p>
+                                    </div>
+                                    <div class="range-2">
+                                        <p>Max</p>
+                                        <p>2000</p>
+                                    </div>
+                                </div>
+                                <input type="range" id="drag">
+                        </div>
+                    </div>
+
+
+                    <div class="car-card-layout">
+                        <div class="filter" onclick="show_filter()">
+                            <a href="#"><i class="fa-solid fa-filter"></i>Filter</a>
+                        </div>
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-1.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Jeep Renegade</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$265</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-2.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Jeep Ferarri Enzo</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$167</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-3.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Ford Raptor</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$147</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-4.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Mini Cooper</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$238</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-5.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>VW Polo</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$106</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-6.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Chevrolet Camaro</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$245</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-7.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Hyundai Staria</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$191</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-8.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Lexus</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$131</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="car-card">
+                            <figure>
+                                <img src="./img/c-9.png" alt="">
+                            </figure>
+                            <div class="car-content">
+                                <h4>Lexus</h4>
+                                <div class="car-content-1-2-3">
+                                    <div class="car-content-1">
+                                        <p>Seats: <span>4</span></p>
+                                        <p>Luggage: <span>2</span></p>
+                                        <p>Doors: <span>2</span></p>
+                                        <p>Fuel: <span>Petrol</span></p>
+                                    </div>
+    
+                                    <div class="car-content-2">
+                                        <p>Horsepower: <span>500</span></p>
+                                        <p>Engine: <span>3000</span></p>
+                                        <p>Drive: <span>4X4</span></p>
+                                        <p>Type: <span>Hatchback</span></p>
+                                    </div>
+    
+                                    <div class="car-content-3">
+                                        <p>Daily rate from</p>
+                                        <p>$228</p>
+                                        <a href="#">Rent Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+              
+            </div>
+        </section>
+    </main>
+    <!-------------------------------------------------end main------------------------------------------------------->
+    <!--------------------------------------------------------start footer----------------------------------->
+    <footer>
+        <div class="top-footer section-padding" id="Contact us">
+            <div class="container">
+                <div class="ftr-all">
+                    <div class="ftr-box">
+                        <a href="./index.html"><img src="./img/nav-logo.png" alt="#"></a>
+                        <p>Where quality meets affordability. We
+                            understand the importance of a smooth
+                            and enjoyable journey without the burden
+                            of excessive costs. That's why we have
+                            meticulously crafted our offerings to
+                            provide you with top-notch vehicles at
+                            minimum expense.</p>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Contact Info</p>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>08 W 36th St, New York, NY 10001</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+1 333 9296</a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i>contact@example.com</a>
+                        <a href="#"><i class="fa-solid fa-file-word"></i>Download Brochure</a>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Quick Links</p>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Cars</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Social Network</p>
+                        <div class="ftr-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-ftr">
+            <div class="container">
+                <p>Copyright 2024 - Rentaly by msrz</p>
+                <div class="right">
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                
+            </div>
+        </div>
+
+     </footer>
+     <!-----------------------------------------------end footer------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--------------------------------------------------------my js link---------------------------------------------->
+<script src="./js/script.js"></script>
+</body>
+</html>

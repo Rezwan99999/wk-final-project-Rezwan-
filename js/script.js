@@ -35,3 +35,15 @@ function scrollFunction(){
         navbar.style.backgroundColor="";
     }
 }
+function show_filter() {
+    const show = document.querySelector(".car-layout");
+
+    if (show.style.display === "none" || show.style.display === "") {
+        show.style.display = "flex"; 
+        show.style.flexDirection = "column";
+        show.style.justifyContent = "center";
+        show.style.alignItems = "center";
+    } else {
+        show.style.display = "none"; 
+    }
+}
