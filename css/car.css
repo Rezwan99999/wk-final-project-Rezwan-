@@ -692,6 +692,12 @@ font-size: 13px;
 line-height: 18px;
 }
 /*=================================================main car======================*/
+.car-type{
+    max-width: 100%;
+    }
+.car-type h3{
+    font-size: 15px;
+}
 .car-card .car-content h4{
     font-size: 18px;
     margin-bottom: 10px;
@@ -814,20 +820,24 @@ line-height: 18px;
 }
 /*=================================main car=================================================*/
 .car-card .car-content h4{
-    margin-bottom: 12px;
+margin-bottom: 12px;
 }
 .car-card .car-content .car-content-1-2-3{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 .car-content .car-content-1-2-3 .car-content-1{
-    margin-bottom: 12px;
+margin-bottom: 12px;
 }
 .car-content .car-content-1-2-3 .car-content-2{
-    margin-bottom: 12px;
+margin-bottom: 12px;
 }
 .car-type{
-    max-width: 100%;
+max-width: 100%;
+}
+.car-type h3{
+font-size: 15px;
+}
 /*===============================================footer==========================================================*/
 .top-footer{
 padding: 20px 0px;
@@ -873,6 +883,4 @@ align-items: center;
 margin-top: 10px;
 width: 100%;
 }
-
-
 }
