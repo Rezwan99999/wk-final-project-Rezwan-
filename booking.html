@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------------------------------------fav icon link---------------------------------->
+<link rel="icon" type="image/x-icon" href="./img/fav.png">
+    <!---------------------------------------------------------aos link--------------------------------------->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--------------------------------------------------font awesome cdn---------------------------->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-------------------csss link------------------------------->
@@ -40,16 +44,20 @@
             <!------------------------------------------------------- end navbar---------------------------------->
         </header>
         <!-----------------------------------end header------------------------------>
+        <!------------------------------------------start main------------------------------------>
+        <main>
         <!-------------------------------------start banner-------------------------->
         <section class="banner">
             <div class="container">
                 <div class="row">
                     <div class="ban-all">
                         <h1>Quick Booking</h1>
+                        <a href="#" onclick="booknow()">Book Now</a>
                     </div>
                     <div class="banner-form">
+                        <a href="#" onclick="submit()"><i class="fa-solid fa-angle-down"></i></a>
                         <form class="booking-form" action="#" method="GET">
-                            <!-- First Row (3 Inputs) -->
+            
                             <div class="form-row">
                                 <div class="input-container">
                                     <i class="fa-solid fa-car"></i>
@@ -85,7 +93,6 @@
                                 </div>
                             </div>
                     
-                            <!-- Second Row (5 Inputs) -->
                             <div class="form-row-2">
                                 <div class="input-container">
                                     <i class="fas fa-calendar-alt"></i>
@@ -99,9 +106,8 @@
                                 </div>
                     
                                 <div class="input-container">
-                                    <i class="fas fa-clock"></i>
                                     <select name="car-type">
-                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="" disabled selected>12:00 AM</option>
                                         <option value="sedan">destination-1</option>
                                         <option value="suv">destination-2</option>
                                         <option value="luxury">destination-3</option>
@@ -112,7 +118,7 @@
                                 <div class="input-container">
                                     <i class="fas fa-calendar-alt"></i>
                                     <select name="car-type">
-                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="" disabled selected>Return Date</option>
                                         <option value="sedan">destination-1</option>
                                         <option value="suv">destination-2</option>
                                         <option value="luxury">destination-3</option>
@@ -121,9 +127,8 @@
                                 </div>
                     
                                 <div class="input-container">
-                                    <i class="fas fa-clock"></i>
                                     <select name="car-type">
-                                        <option value="" disabled selected>Enter your destination</option>
+                                        <option value="" disabled selected>12:00 AM</option>
                                         <option value="sedan">destination-1</option>
                                         <option value="suv">destination-2</option>
                                         <option value="luxury">destination-3</option>
@@ -138,10 +143,279 @@
                         </form>
                     </div>
                 </div>
-      
-              
             </div>
         </section>
+        <!---------------------------------------------end banner------------------------------------>
+        <!--------------------------------------------start 1-2-3-4--------------------->
+        <section class="one-four section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="steps-container">
+
+                        <div class="step">
+                            <figure>
+                                <img src="./img/1.png" alt="Step 1">
+                            </figure>
+                            <h3>Choose a vehicle</h3>
+                            <p>Unlock unparalleled adventures and memorable journeys with our vast fleet of vehicles tailored to suit every need, taste, and destination.</p>
+                        </div>
+                
+                        <div class="step">
+                            <figure>
+                                <img src="./img/2.png" alt="Step 2">
+                            </figure>
+                            <h3>Pick location & date</h3>
+                            <p>Pick your ideal location and date, and let us take you on a journey filled with convenience, flexibility, and unforgettable experiences.</p>
+                        </div>
+                
+                        <div class="step">
+                            <figure>
+                                <img src="./img/3.png" alt="Step 3">
+                            </figure>
+                            <h3>Make a booking</h3>
+                            <p>Secure your reservation with ease, unlocking a world of possibilities and embarking on your next adventure with confidence.</p>
+                        </div>
+                
+                        <div class="step third-step">
+                            <figure>
+                                <img src="./img/4.png" alt="Step 4">
+                            </figure>
+                            <h3>Sit back & relax</h3>
+                            <p>Hassle-free convenience as we take care of every detail, allowing you to unwind and embrace a journey filled with comfort.</p>
+                        </div>
+                
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <!-------------------------------end 1-2-3-4------------------------->
+        <!----------------------------------start adventure------------------------------------->
+        <section class="adventure">
+            <div class="container">
+                <div class="adventure-all">
+                    <div class="adventure-head">
+                        <h2>Let's Your Adventure Begin</h2>
+                    </div>
+                        <div class="adventure-part" data-aos="fade-down" data-aos-duration="1000">
+                            <figure>
+                                <img src="./img/a-1.png" alt="#">
+                            </figure>
+                            <div class="adventure-content" >
+                                <p>First class services</p>
+                                <p>Where luxury meets exceptional care, creating unforgettable moments and exceeding your every expectation.</p>
+                            </div>
+                        </div>
+                        <div class="adventure-part" data-aos="fade-down" data-aos-duration="2000">
+                            <figure>
+                                <img src="./img/a-2.png" alt="#">
+                            </figure>
+                            <div class="adventure-content" >
+                                <p>24/7 road assistance</p>
+                                <p>Reliable support when you need it most, keeping you on the move with confidence and peace of mind.</p>
+                            </div>
+                        </div>
+                    <div class="adventure-part" data-aos="fade-down" data-aos-duration="3000">
+                        <figure>
+                            <img src="./img/a-3.png" alt="#">
+                        </figure>
+                        <div class="adventure-content" >
+                            <p>Free Pick-Up & Drop-Off</p>
+                            <p>Enjoy free pickup and drop-off services, adding an extra layer of ease to your car rental experience.</p>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------------------------------end adventure------------------------------------->
+        <!-------------------------------------------question----------------------------->
+    <section class="question">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>Have Any Questions?</h2>
+                </div>
+                <div class="form">
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>How do I get started with Car Rental?</p>
+                            <i onclick="show(this)"class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>Can I rent a car with a debit card??</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>What kind of Car Rental do I need?</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>What is a rental car security deposit?</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+
+                    <div class="form-box">
+                        <div class="form-box-1-1">
+                            <p>Can I cancel or modify my reservation?</p>
+                            <i onclick="show(this)" class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="form-box-1-2">
+                            <p>Yes</p>
+                            <p>No</p>
+                            <p>Another Question Message <span>(+91 07028064576)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="question-bottom">
+                    <div class="download-app" data-aos="fade-right" data-aos-duration="5000" >
+                        
+                        <h3>Download our apps to get the best experience</h3>
+                        <div class="app-box">
+                            <a href="#"><img src="./img/apple.png" alt=""></a>
+                            <a href="#"><img src="./img/android.png" alt=""></a>
+                            <div class="app-box-mini">
+                                <p>Download the</p>
+                                <p>App Today</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <figure >
+                        <img src="./img/q-bottom.png" alt="" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------end question-------------------------------------->
+        <!---------------------------------------------------start city---------------------------------- -->
+        <!-- <section class="city">
+            <div class="container">
+                <div class="all-city">
+                    <p>INDIA</p>
+                    <p>SPAIN</p>
+                    <p>AMERICA</p>
+                    <p>SOUTH AFRICA</p>
+                    <p>JAPAN</p>
+                    <p>CHINA</p>
+                </div>
+            </div>
+        </section> -->
+        <!----------------------------------------------end city------------------------------------------------------>
+        </main>
+             <!-----------------------------------------------start footer---------------------------------------------->
+     <footer>
+        <div class="top-footer section-padding" id="Contact us">
+            <div class="container">
+                <div class="ftr-all">
+                    <div class="ftr-box">
+                        <a href="#"><img src="./img/nav-logo.png" alt="#"></a>
+                        <p>Where quality meets affordability. We
+                            understand the importance of a smooth
+                            and enjoyable journey without the burden
+                            of excessive costs. That's why we have
+                            meticulously crafted our offerings to
+                            provide you with top-notch vehicles at
+                            minimum expense.</p>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Contact Info</p>
+                        <a href="#"><i class="fa-solid fa-location-dot"></i>08 W 36th St, New York, NY 10001</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>+1 333 9296</a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i>contact@example.com</a>
+                        <a href="#"><i class="fa-solid fa-file-word"></i>Download Brochure</a>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Quick Links</p>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Cars</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="ftr-box">
+                        <p>Social Network</p>
+                        <div class="ftr-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-ftr">
+            <div class="container">
+                <p>Copyright 2024 - Rentaly by msrz</p>
+                <div class="right">
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                
+            </div>
+        </div>
+
+     </footer>
+     <!--------------------------------------end footer------------------------------------------------->
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+     <!--------------------------------------------------------my js link---------------------------------------------->
+<script src="./js/script.js"></script>
+<!----------------------------------------------------aos js-------------------------------->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+   AOS.init();
+ </script>
     
 </body>
 </html>

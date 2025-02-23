@@ -47,3 +47,20 @@ function show_filter() {
         show.style.display = "none"; 
     }
 }
+function booknow(){
+    const show=document.querySelector('.banner-form')
+    if (show.style.display === "none" || show.style.display === "") {
+        show.style.display = "block"; 
+        console.log("ok")
+
+    } 
+    // else {
+    //     show.style.display = "none"; 
+    // }
+}
+function submit(){
+    const show=document.querySelector('.banner-form')
+    if (show.style.display === "block") {
+        show.style.display = "none"; 
+    } 
+}

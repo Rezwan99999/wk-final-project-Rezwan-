@@ -1423,6 +1423,9 @@ font-size: 14px;
 color: #c6c5c5;
 }
 /*======================================================question=============================================*/
+.question .container .row .heading h2{
+font-size: 30px;
+}
 .question-bottom{
 padding: 15px 28px 8px 28px;
 margin-top: 20px;
