@@ -177,6 +177,8 @@ img{
 .banner-form a{
     color: #000;
     background-color: rgb(251, 7, 7);
+    font-family: "Inter", serif;
+    font-weight: 400;
     padding: 5px 15px;
     border-radius: 5px;
     margin-bottom: 10px;
