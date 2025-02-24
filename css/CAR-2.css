@@ -141,7 +141,7 @@ figure{
 }
 /*=========================================car details=========================================================*/
 .car-details{
-    background-color: #000;
+    background-color: #121212;
     color: #c9c6c6;
 }
 .car-details .container{
@@ -324,4 +324,438 @@ select{
     padding: 15px;
     border-radius: 5px;
     background-color: #4a4848;
+}
+/*======================================================footer=======================================================*/
+footer{
+    background-color: #121212;
+}
+.top-footer{
+    border-bottom: 1px solid #a09f9f;
+}
+.ftr-all{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ftr-box:nth-child(1){
+    max-width: 287px;
+    width: 100%;
+}
+.ftr-box:nth-child(2){
+    max-width: 296px;
+    width: 100%;
+}
+.ftr-box:nth-child(3){
+    max-width: 136px;
+    width: 100%;
+}
+.ftr-box p:nth-child(2){
+    font-size: 15px;
+    font-family: "Oxanium", serif;
+    line-height: 22px;
+    color: #a09f9f;
+}
+.ftr-box p:nth-child(1){
+    font-size: 18px;
+    font-family: "Orbitron", serif;
+    font-weight: 600;
+    color: #a09f9f;
+    padding-bottom: 32px;
+}
+.ftr-box a{
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-family: "Oxanium", serif;
+    color: #a09f9f;
+}
+.ftr-box a:hover{
+    padding: 0px 10px;
+    border-left: 1px solid rgb(4, 247, 4);
+    border-right: 1px solid rgb(4, 247, 4);
+    color: rgb(4, 247, 4);
+}
+.ftr-box a i{
+    padding-right: 10px;
+}
+.ftr-box .ftr-icon{
+    gap: 22px;
+    width: 100%;
+}
+.ftr-box .ftr-icon i{
+    padding: 16px;
+    background-color: #585757;
+    border-radius: 10px;
+}
+.ftr-box .ftr-icon i:hover{
+    border: 1px solid rgb(7, 249, 7);
+    color: rgb(9, 221, 9);
+}
+.bottom-ftr{
+    color: #d1d0d0;
+    padding: 20px 0px;
+}
+.bottom-ftr .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+}
+.bottom-ftr .container .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================responsive 1400, 1199, 991, 767, 575, 320===========================================================*/
+@media screen and (max-width:1400px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+/*========================================navbar====================================*/
+.navbar{
+padding: 23px 30px;
+}
+.nav-all .nav-menu ul li{
+padding: 0px  18px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+/*===================================navbar==============================================*/
+.navbar{
+padding: 23px 20px;
+}
+.nav-all .nav-menu ul li{
+padding: 0px  14px;
+}
+.nav-all .nav-menu ul li a{
+font-size: 12px;
+}
+.nav-all .sign-in a{
+font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+/*=======================================navbar=======================================*/
+.navbar{
+padding: 15px 5px;
+}
+.nav-menu{
+position: absolute;
+top: 100%;
+left: 0%;
+width: 100%;
+height: 80vh;
+padding: 20px 0px;
+background-color: rgba(6, 6, 6, 0.8);
+display: none;
+        
+}
+.nav-all .nav-menu ul{
+display: flex;
+flex-direction: column; 
+margin-top: 10%;
+top: 50%;
+}
+.nav-all .nav-menu ul li{
+margin-bottom: 30px;
+}
+.nav-all .nav-menu ul li a{
+font-size: 15px;
+font-family: "Orbitron", serif;
+font-weight: bold;
+color: #fff;
+}
+.toggler{
+display: block;
+margin: 0 auto;
+position: absolute;
+top: 30%;
+left: 46%;
+width: 5%;
+}
+.toggler i{
+/* border: 2px solid rgba(211, 211, 211, 0.2); */
+border-radius: 50%;
+padding: 10px;
+/* background-color: #000; */
+}
+.nav-menu.showList{
+display: block;
+}
+}
+
+
+
+
+
+@media screen and (max-width:575px) {
+/*==============================navbar===================================*/
+.navbar{
+padding: 15px 5px;
+}
+.nav-all .nav-logo a figure{
+width: 80%;
+}
+.nav-menu{
+position: absolute;
+top: 100%;
+left: 0%;
+width: 100%;
+height: 100vh;
+padding: 20px 0px;
+background-color: rgba(6, 6, 6, 0.8);
+display: none;
+}
+.nav-all .nav-menu ul{
+display: flex;
+flex-direction: column; 
+margin-top: 15%;
+top: 50%;
+}
+.nav-all .nav-menu ul li{
+margin-bottom: 25px;
+}
+.nav-all .nav-menu ul li a{
+font-size: 12px;
+font-family: "Orbitron", serif;
+font-weight: bold;
+color: #fff;
+}
+.toggler{
+display: block;
+margin: 0 auto;
+position: absolute;
+top: 30%;
+left: 45%;
+width: 8%;
+}
+.toggler i{
+border-radius: 50%;
+padding: 5px;
+}
+.nav-menu.showList{
+display: block;
+}
+/*============================================banner===================================*/
+.ban-all h1{
+font-size: 30px;
+margin-bottom: 10px;
+}
+.ban-all p{
+font-size: 13px;
+line-height: 18px;
+}
+/*================================car details===============================*/
+.car-details .container .car-img{
+    max-width: 614px;
+    width: 100%;
+    padding-left: 20px;
+}
+.middle-part{
+    max-width: 100%;
+    padding-left: 25px;
+}
+.last-part{
+    max-width: 100%;
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*===============================footer=======================================*/
+.top-footer{
+padding: 30px 0px;
+}
+.ftr-all{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ftr-box{
+max-width: 100%;
+text-align: center;
+/* width: 100%; */
+}
+.ftr-box p:nth-child(1){
+/* font-size: 18px; */
+padding-bottom: 25px;
+}
+.ftr-box a{
+margin-bottom: 15px;
+font-size: 16px;
+}
+.bottom-ftr .container{
+font-size: 12px;
+}
+.bottom-ftr .container .right{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 40%;
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width:320px) {
+/*=========================================navbar==================================*/
+.nav-all .nav-logo a figure{
+width: 70%;
+}
+.nav-all .nav-menu ul li a{
+font-size: 12px;
+font-family: "Orbitron", serif;
+font-weight: bold;
+color: #fff;
+}
+.nav-all .sign-in a{
+padding: 5px 10px;
+}
+.toggler{
+display: block;
+margin: 0 auto;
+position: absolute;
+top: 20%;
+left: 45%;
+width: 10%;
+}
+.toggler i{
+/* border: 2px solid rgba(211, 211, 211, 0.2); */
+border-radius: 50%;
+padding: 5px;
+/* background-color: #000; */
+}
+
+
+/*=========================================banner================================================*/
+.ban-all h1{
+font-size: 25px;
+margin-bottom: 10px;
+}
+.ban-all p{
+font-size: 12px;
+line-height: 18px;
+}
+
+/*===============================================footer==========================================================*/
+.top-footer{
+padding: 20px 0px;
+}
+.ftr-all{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ftr-box{
+max-width: 100%;
+text-align: center;
+/* width: 100%; */
+}
+.ftr-box p:nth-child(1){
+/* font-size: 18px; */
+padding-bottom: 18px;
+}
+.ftr-box p:nth-child(2){
+font-size: 12px;
+line-height: 20px;
+}
+.ftr-box a{
+margin-bottom: 10px;
+font-size: 12px;
+}
+.ftr-box .ftr-icon i{
+padding: 10px
+}
+.bottom-ftr{
+padding: 15px 0px;
+}
+.bottom-ftr .container{
+display: flex;
+flex-direction: column;
+font-size: 12px;
+}
+.bottom-ftr .container .right{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 10px;
+width: 100%;
+}
 }
