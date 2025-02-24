@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*=============================================common class==========================================*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 15px;
+}
+.section-padding{
+    padding: 75px 0px;
+}
+section,
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+ 
+ /*==================================================navbar==============================================*/
+ .navbar{
+    /* background-color: rgb(163, 163, 247); */
+    padding: 23px 0px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.nav-all{     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-all .nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+}
+.nav-all .nav-menu ul li{
+    padding: 0px  32.5px;
+}
+.nav-all .nav-menu ul li a{
+    font-size: 16px;
+    font-family: "Orbitron", serif;
+    font-weight: bold;
+    color: #fff;
+}
+.active{
+    border-radius: 5px;
+    background-color: #000;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 5px 10px;
+}
+.nav-all .nav-menu ul li a:hover{
+    border-radius: 5px;
+    background-color: #000;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 5px 10px;
+}
+.nav-all .sign-in a{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Orbitron", serif;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+}
+.toggler{
+    display: none;
+}
+.toggler i{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.nav-all .sign-in a:hover{
+    background-color: #000;
+    /* border: .5px solid #FFFFFF; */
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    rotate: 5deg;
+}
+
+/*=================================================banner================================================*/
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/car-bg.png");
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 365px;
+    height: 100%;
+}
+.ban-all{
+    width: 52%;
+    text-align: center;
+}
+.ban-all h1{
+    font-size: 40px;
+    font-family: "Orbitron", serif;
+    color: #c1c1c1;
+    margin-bottom: 13px;
+}
+.ban-all p{
+    font-size: 15px;
+    font-family: "Oxanium", serif;
+    font-weight: 400;
+    line-height: 19px;
+    color: #c1c1c1;
+}
+/*=========================================car details=========================================================*/
+.car-details{
+    background-color: #000;
+    color: #c9c6c6;
+}
+.car-details .container{
+    max-width: 1220px;
+}
+.car-details-all{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.car-details .container .car-img{
+    max-width: 614px;
+    width: 48%;
+}
+.middle-part{
+    max-width: 283px;
+    width: 100%;
+}
+.middle-part h3{
+    font-size: 24px;
+    font-family: "Orbitron", serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.middle-part span{
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Oxanium", serif;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 28px;
+    width: 95%;
+}
+.middle-part .content samp{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Oxanium", serif;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.middle-part .model p{
+    width: 100%;
+}
+.model{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #c5c3c3;
+}
+.model p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Oxanium", serif;
+}
+.content .model:nth-child(1) .p:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Oxanium", serif;
+}
+.model p:nth-child(2){
+    font-size: 15px;
+    font-family: "Oxanium", serif;
+    font-weight: 600;
+}
+.middle-part .content-2{
+    padding-top: 30px;
+}
+.middle-part .content-2 h4{
+    font-size: 18px;
+    font-family: "Orbitron", serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.middle-part .content-2 p{
+    font-size: 16px;
+    font-family: "Oxanium", serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.last-part{
+    max-width: 283px;
+    width: 100%;
+}
+.last-part .price{
+    padding: 25px 68px;
+    text-align: center;
+    background-color: #2e2b2b;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.last-part .price p:nth-child(1){
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    margin-bottom: 10px;
+}
+.last-part .price p:nth-child(2){
+    font-size: 53px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+
+}
+.booking-part{
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 35px 17px;
+    max-width: 283px;
+    width: 100%;
+    text-align: center;
+}
+select{
+    font-size: 10px;
+}
+.booking-part .input-container{
+    padding: 15px;
+    background-color: #2e2b2b;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.booking-part select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.booking-part .date-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.booking-part .date-container{
+    padding: 15px;
+    background-color: #2e2b2b;
+    display: flex;
+    border-radius: 5px;
+    max-width: 158px;
+    width: 100%;
+}
+.booking-part .time-container{
+    padding: 15px 8px;
+    background-color: #2e2b2b;
+    border-radius: 5px;
+    max-width: 80px;
+    width: 100%;
+}
+.booking-part a{
+    border: 1px solid #c5c3c3;
+    padding: 24px 68px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #000;
+    font-size: 15px;
+    color: #c5c3c3;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+.shear{
+    margin-top: 30px;
+    padding: 38px 32px;
+    border-radius: 10px;
+    border: 1px solid #c9c6c6;
+}
+.shear p{
+    font-size: 18px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.shear .shear-icon i{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #4a4848;
+}
