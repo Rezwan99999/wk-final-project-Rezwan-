@@ -1,4 +1,4 @@
-alert("welcome our alpha cars")
+// alert("welcome our alpha cars")
 let toggler=document.querySelector("#toggler")
 let navMenu=document.querySelector(".nav-menu")
 let icon=document.querySelector(".fa-angle-down")

@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------------------------------------------aos link--------------------------------------->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---------------------------------------------------fav icon link---------------------------------->
+<link rel="icon" type="image/x-icon" href="./img/fav.png">
     <!---------------------------------css link-------------------------------->
     <link rel="stylesheet" href="./css/form.css">
     <title>ALPHA CAR FORM</title>
@@ -13,7 +17,7 @@
     <section class="form-all section-padding">
         <div class="container">
             <div class="row">
-                <div class="form">
+                <div class="form" data-aos="flip-left" data-aos-duration="1500">
                     <div class="cross">
                         <a href="#" onclick="hide_form()">X</a>
                     </div>
@@ -73,9 +77,10 @@
 
 
                 <!-----------------------------------------------form-2--------------------------------------------------->
-                <div class="form-2">
+                <div class="form-2" data-aos="flip-right" data-aos-duration="1500">
                     <div class="cross">
-                        <a href="#" onclick="hide1_form()">X</a>
+                        <!-- <a href="#" onclick="hide1_form()">X</a> -->
+                         <a href="./index.html">Back</a>
                     </div>
                     <form action="#">
                         <div class="head">
@@ -99,7 +104,7 @@
                 </div>
 
                 <!-----------------------------form-3---------------------------->
-                <div class="form-3">
+                <div class="form-3" data-aos="flip-left" data-aos-duration="1500">
                     <div class="cross">
                         <a href="#" onclick="hide2_form() ">X</a>
                     </div>
@@ -148,6 +153,14 @@
 
     <!-------------------------======================================js link=============================================----------------------->
     <script src="./js/form.js"></script>
+
+
+     <!----------------------------------------------------aos js-------------------------------->
+
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
