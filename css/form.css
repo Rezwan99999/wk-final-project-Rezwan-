@@ -59,11 +59,7 @@ a{
 }
 /*========================================form=========================*/
 .form-all{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/form-bg.png");
-    background-position: left center;
-    background-size: 50% 100%;
-    background-color: #6d6c6c;
-    background-repeat: no-repeat;
+    background-color: black;
 }
 .form{
     background: url("../img/form-bg.png");
