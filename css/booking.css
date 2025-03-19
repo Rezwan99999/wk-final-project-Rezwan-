@@ -206,6 +206,10 @@ img{
     background-color: transparent;
     color: #bebdbd;
 }
+.banner-form .booking-form .input-container select option{
+    background-color: #000;
+    color: #FFFFFF;
+}
 .banner-form .booking-form .form-row .input-container:nth-child(1){
     max-width: 286px;
     width: 100%;
@@ -288,10 +292,18 @@ img{
     /* background-color: #434343; */
     border-radius: 5px;
 }
+.form-row-2 .input-container:nth-child(5):hover{
+    color: #000;
+    background-color: rgb(2, 253, 2);
+}
 .form-row-2 .input-container input{
     color: #bebdbd;
     background-color: transparent;
     border: none;
+}
+.form-row-2 .input-container input:hover{
+    color: #000;
+    background-color: rgb(2, 253, 2);
 }
 /*===============================================1-2-3-4===========================================*/
 .one-four{

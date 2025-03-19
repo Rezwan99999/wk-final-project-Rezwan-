@@ -277,6 +277,10 @@ select{
     background-color: transparent;
     color: #FFFFFF;
 }
+.booking-part select option{
+    background-color: #000;
+    color: #FFFFFF;
+}
 .booking-part .date-time{
     display: flex;
     justify-content: space-between;
@@ -310,6 +314,10 @@ select{
     font-family: "Inter", serif;
     font-weight: 500;
 }
+.booking-part a:hover{
+    color: #000;
+    background-color: rgb(2, 253, 2);
+}
 .shear{
     margin-top: 30px;
     padding: 38px 32px;
@@ -326,6 +334,10 @@ select{
     padding: 15px;
     border-radius: 5px;
     background-color: #4a4848;
+}
+.shear .shear-icon i:hover{
+    /* border: 1px solid rgb(7, 249, 7); */
+    color: rgb(9, 221, 9);
 }
 /*======================================================footer=======================================================*/
 footer{
